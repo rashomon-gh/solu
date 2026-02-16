@@ -45,4 +45,27 @@ if __name__ == "__main__":
 ****You can also check `main.py`****
 
 
+## Local Dev
+
+### Env
+
+```bash
+# make sure to have uv installed
+# also python 3.12.11
+
+uv sync
+source .venv/bin/activate
+```
+
+### Ruff and Pre-Commit
+
+By default, `pre-commit` will run `ruff` formatting with the `--fix` flag.
+
+
+> [!NOTE]
+> The pre-commit configuration can be found in the `.pre-commit-config.yaml` file.
+
+```bash
+pre-commit install
+```
 
