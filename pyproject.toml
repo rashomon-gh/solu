@@ -1,5 +1,5 @@
 [project]
-name = "solu"
+name = "softmax-linear-unit"
 version = "0.1.0"
 description = "An implementation of softmax linear unit (solu) in PyTorch"
 license = { file = "LICENSE" }
