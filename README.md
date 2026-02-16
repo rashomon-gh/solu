@@ -18,7 +18,7 @@ The original paper talks about a performance penalty with softmax linear unit wh
 ### Installation
 
 ```bash
-pip install solu
+pip install softmax-linear-unit
 ```
 
 ### Code import
