@@ -15,6 +15,14 @@ The original paper talks about a performance penalty with softmax linear unit wh
 
 ## Example Usage
 
+### Installation
+
+```bash
+pip install solu
+```
+
+### Code import
+
 > [!NOTE]
 > `SoLU` and `SoLULayer` are `torch.nn` modules and hence can be used in any pytorch model definition.
 
