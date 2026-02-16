@@ -1,5 +1,5 @@
 import torch
-from solu import SoLULayer
+from SoLU import SoLULayer
 
 
 @torch.no_grad()

@@ -1,11 +1,11 @@
-# solu - Softmax Linear Unit
+# SoLU - Softmax Linear Unit
 
 This repository packages an implementation of Sofmax Linear Unit, as proposed in [Softmax Linear Units](https://transformer-circuits.pub/2022/solu/index.html#section-3-2).
 
 ## Module Structure
 
 ```
-solu -> SoLU, SoLULayer
+SoLU -> SoLU, SoLULayer
 ```
 
 
@@ -29,7 +29,7 @@ pip install softmax-linear-unit
 
 ```python
 import torch
-from solu import SoLULayer, SoLU
+from SoLU import SoLULayer, SoLU
 
 
 @torch.no_grad()
