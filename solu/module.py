@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -12,6 +13,6 @@ class SoLU(nn.Module):
         super().__init__()
         self.dim = dim
 
-    def forward(self, x):
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         # Applies softmax along the last dimension (typically the feature dimension in Transformers)
         return x * F.softmax(x, dim=self.dim)
