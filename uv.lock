@@ -473,30 +473,28 @@ wheels = [
 ]
 
 [[package]]
-name = "solu"
-version = "0.1.0"
+name = "softmax-linear-unit"
+version = "1.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "numpy" },
-    { name = "torch" },
 ]
 
 [package.dev-dependencies]
 dev = [
     { name = "pre-commit" },
     { name = "ruff" },
+    { name = "torch" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "numpy", specifier = ">=2.4.2" },
-    { name = "torch", specifier = ">=2.10.0" },
-]
+requires-dist = [{ name = "numpy", specifier = ">=2.4.2" }]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "pre-commit", specifier = ">=4.5.1" },
     { name = "ruff", specifier = ">=0.15.1" },
+    { name = "torch", specifier = ">=2.10.0" },
 ]
 
 [[package]]
