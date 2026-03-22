@@ -1,6 +1,6 @@
 [project]
 name = "softmax-linear-unit"
-version = "1.0.3"
+version = "1.0.4"
 description = "An implementation of softmax linear unit (solu) in PyTorch"
 license = { file = "LICENSE" }
 readme = "README.md"

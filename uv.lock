@@ -474,7 +474,7 @@ wheels = [
 
 [[package]]
 name = "softmax-linear-unit"
-version = "1.0.3"
+version = "1.0.4"
 source = { editable = "." }
 
 [package.dev-dependencies]
