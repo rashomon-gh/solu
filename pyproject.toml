@@ -9,9 +9,9 @@ dependencies = []
 
 
 [project.urls]
-"Homepage" = "https://codeberg.org/rashomon/solu"
-"Repository" = "https://codeberg.org/rashomon/solu.git"
-"Issues" = "https://codeberg.org/rashomon/solu/issues"
+"Homepage" = "https://github.com/rashomon-gh/solu"
+"Repository" = "https://github.com/rashomon-gh/solu.git"
+"Issues" = "https://github.com/rashomon-gh/solu/issues"
 
 
 [build-system]
